@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorldController {
+public class ExHelloWorldController {
 
 
     //Necessite d'ajouter un paramètre pour fonctionner /hello?name=Jeremie

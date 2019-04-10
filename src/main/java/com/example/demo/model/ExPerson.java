@@ -1,15 +1,15 @@
 package com.example.demo.model;
 
-public class Person {
+public class ExPerson {
 
     private String firstName;
     private String lastName;
 
-    public Person() {
+    public ExPerson() {
 
     }
 
-    public Person(String firstName, String lastName) {
+    public ExPerson(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }

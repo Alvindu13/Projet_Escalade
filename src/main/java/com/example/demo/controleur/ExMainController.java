@@ -3,20 +3,20 @@ package com.example.demo.controleur;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.demo.model.Person;
+import com.example.demo.model.ExPerson;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class MainController {
+public class ExMainController {
 
-    private static List<Person> persons = new ArrayList<Person>();
+    private static List<ExPerson> persons = new ArrayList<ExPerson>();
 
     static {
-        persons.add(new Person("Bill", "Gates"));
-        persons.add(new Person("Steve", "Jobs"));
+        persons.add(new ExPerson("Bill", "Gates"));
+        persons.add(new ExPerson("Steve", "Jobs"));
     }
 
     @RequestMapping(value = { "/", "/index" }, method = RequestMethod.GET)
